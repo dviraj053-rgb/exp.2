@@ -1,16 +1,31 @@
 # exp.2
-Aim:
-The primary aim of this experiment is to comprehensively understand the fundamental characteristics, functionalities, and common operations associated with lists in Python.
+aim:
+Study of list in python
 
-Theory and Concepts Explored:
-Through the various code snippets, the following theoretical aspects and practical applications of Python lists have been explored:
+theory:
+In this experiment we learned how to use and edit lists in python. We added elements to list, removed elements from list, sorted elements of list,etc.
+list.append() is used to add elements into the list, list.remove() is used to remove elements from list, max() is used to find maximum , min() used to find minimum, len() is used to find length of list.
+list1.extend(list2) is used to merge two lists.
+list[2] is used to find third element of the list.
 
-List Creation and Data Types: Demonstrating how to initialize lists and store various data types (strings, integers, floats, booleans) within a single list.
-Indexing and Slicing: Understanding how to access individual elements using positive and negative indices, and how to extract sub-lists using slicing.
-List Length: Utilizing the len() function to determine the number of elements in a list.
-Mutability: Illustrating that lists are mutable, meaning their elements can be changed, added, or removed after the list's creation.
-Adding Elements: Experimenting with methods like append() to add elements to the end and insert() to add elements at a specific position.
-Extending Lists: Using the extend() method to combine elements from one list into another.
-Duplicate Elements: Confirming that lists can contain multiple instances of the same value.
-Built-in Functions for Lists: Applying functions such as max(), min(), sum(), and len() to perform aggregate calculations on numerical lists.
-Sorting Lists: Demonstrating how to sort list elements in ascending order using the sort() method.
+algorithm:
+a)Algorithm: Analyzing Student Marks
+    1)Initialize Data: Create a list containing the numerical marks of the students.
+    2)Find Extremes:
+        Identify the highest value in the list (max()).
+        Identify the lowest value in the list (min()).
+    3)Count Entries: Determine how many items (students) are in the list(len()).
+    4)Calculate Totals: * Add all the marks together to get the Sum(sum()).
+    5)Calculate the Mean: Divide the Sum by the Total Number of Students to find the Average(sum()/len()).
+    6)Organize Data: Sort the list of marks from the lowest value to the highest value (Ascending Order)(list.sort()).
+    7)Display Results: Print all the calculated values and the sorted list to the screen.
+
+b)Modifying a Grocery List
+    1)Create the List: Start with an initial list of five items: carrot, potato, spinach, eggplant, and cheese.
+    2)Add an Item: Update the list by adding "milk" to the very end using ".append("milk")" command.
+    3)Remove an Item: Search for "potato" in the list and delete it using ".remove("potato")" command.
+    4)Remove another Item: Search for "carrot" in the list and delete it using ".remove("carrot")" command.
+    5)Output Results: Display the final, updated version of the list.
+
+conclusion:
+Hence lists were implemented in python and operations were done on the lists.
